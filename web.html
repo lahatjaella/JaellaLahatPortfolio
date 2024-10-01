@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="milestone" content="Portfolio">
+  <title>Web Development Projects</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Space Mono Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Poppins Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- My Style Sheets -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-house-heart-fill"></i> JAELLA LAHAT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-chevron-double-down"></i>
+      </button>
+
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <!-- Unordered List of NavBar Items-->
+        <ul class="navbar-nav ms-auto">
+          <!-- Home -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- About Me -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section">About</a>
+          </li>
+          <!-- Mission & Values -->
+          <li class="nav-item">
+            <a class="nav-link" href="#mission-section">Mission</a>
+          </li>
+          <!-- Featured -->
+          <li class="nav-item">
+            <a class="nav-link" href="#featured-section">Featured</a>
+          </li>
+          <!-- Skills -->
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+          <!-- Experience -->
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <!-- Volunteer Work -->
+          <li class="nav-item">
+            <a class="nav-link" href="volunteer.html">Volunteer</a>
+          </li>
+          <!-- Projects Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="data.html">Data Analytics</a></li>
+              <li><a class="dropdown-item" href="game.html">Game Development</a></li>
+              <li><a class="dropdown-item" href="it.html">Tech Infrastructure</a></li>
+              <li><a class="dropdown-item" href="marketing.html">Digital Marketing</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="gca-projects-section" class="py-5">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row mb-4">
+        <!-- Title -->
+        <div class="col-md-12 text-center">
+          <h2 class="featured-title">WEB DEVELOPMENT PROJECTS</h2>
+        </div>
+      </div>
+      
+      <div class="row mb-4">
+        <!-- Mariott Bonvoy -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/marriott.png" alt="Mariott Bonvoy Hotels & Villas Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Marriott Bonvoy</h5>
+              <p class="card-text">The Marriott Bonvoy Hotels and Villas Project enhances the Homes and Villas website by integrating personalized destination recommendations with an interactive map, improving user experience through dynamic filtering and custom features.</p>
+              <a href="https://lahatjaella.github.io/PublicisSapiensMarriottPortfolio/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix Show Generator -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/show-generator.png" alt="Netflix Random Show Generator Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Show Generator</h5>
+              <p class="card-text">The Netflix Random Show Generator is a prototype feature that suggests random shows from various genres, enhancing user experience by providing genre-based or completely random show recommendations.</p>
+              <a href="https://lahatjaella.github.io/NetflixRandomShowGenerator/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AirBnB Search & Filter -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/aribnb-search.png" alt="AirBnB Prototype Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">AirBnB Search & Filter</h5>
+              <p class="card-text">The Airbnb Search and Filter Project enhances the search and filtering functionality for an Airbnb prototype, allowing users to easily find listings based on city, price range, and property type.</p>
+              <a href="https://lahatjaella.github.io/AirbnbSearchAndFilter/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Encouraging Words -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/words-of-encouragement.png" alt="Words of Encouragement Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Words of Encouragement</h5>
+              <p class="card-text">The Words of Encouragement website provides users with personalized, spoken messages of encouragement using text-to-speech technology, allowing for a customized experience with adjustable volume control.</p>
+              <a href="https://lahatjaella.github.io/WordsOfEncouragement/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Escape Sequence Photo Gallery-->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/escape-sequence.png " alt="Escape Sequence Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Escape Sequence Gallery</h5>
+              <p class="card-text">The Escape Sequence Photo Gallery is an interactive photo gallery project where thumbnails are rendered dynamically using JavaScript, allowing users to click and view full-size images through DOM manipulation.</p>
+              <a href="https://lahatjaella.github.io/EscapeSequenceGallery/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dev Threadz -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/dev-threadz.png" alt="Dev Threadz Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Dev Threadz</h5>
+              <p class="card-text">The Dev Threadz Website project enhances functionality by implementing JavaScript methods to render products, enable product search, convert prices to different currencies, and calculate the shopping cart total.</p>
+              <a href="https://lahatjaella.github.io/DevThreadz/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mad Libs Madness -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/mad-libs.png" alt="Mad Libs Madness Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mad Libs Madness</h5>
+              <p class="card-text">The Mad Libs Generator is an interactive web application built with HTML, CSS, and JavaScript that allows users to create custom, dynamic stories based on their input through a simple form.</p>
+              <a href="https://lahatjaella.github.io/MadLibsMadness/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cowboy Rob's Carpet Calculator -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/carpet-calculator.png" alt="Cowboy Rob's Calculator Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Carpet Calculator</h5>
+              <p class="card-text">Cowboy Rob's Carpet Calculator is a JavaScript-based tool developed to calculate carpet square footage, including a 10% waste allowance, using user-provided dimensions and displaying the result directly on the page.</p>
+              <a href="https://lahatjaella.github.io/CarpetCalculator/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meal Mate -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/meal-mate.png" alt="Meal Mate Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Meal Mate</h5>
+              <p class="card-text">Meal Mate is a web application that lets users search for recipes by ingredient, providing detailed information such as recipe names, images, and preparation instructions, all fetched from the MealDB API.</p>
+              <a href="https://lahatjaella.github.io/MealMate/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5K Race Registration -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/race-registration.png" alt="5K Race Registration Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Race Registration</h5>
+              <p class="card-text">The 5k Race Registration is a web app designed to simplify participant data entry for race organizers, allowing them to capture and display participant details, categorize them by age and size, and ensure accurate data through dynamic table updates.</p>
+              <a href="https://lahatjaella.github.io/5KRaceRegistration/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Alon Oasis -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/alon-oasis.png" alt="Alon Oasis Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Alon Oasis</h5>
+              <p class="card-text">A captivating landing and about page for Alon Oasis, a conceptual resort in Manila, featuring intuitive navigation, stunning visuals, and engaging content.</p>
+              <a href="https://lahatjaella.github.io/AlonOasis/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Eco Friendly Steamers -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/eco-friendly-steamers.png" alt="Eco Friendly Steamers Website Page" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Eco-Friendly Steamers</h5>
+              <p class="card-text">Experience Eco-Friendly Steamers' redesigned website, enhanced with stylish aesthetics and an intuitive intake form, making it to request steam cleaning services.</p>
+              <a href=" https://lahatjaella.github.io/EcoFriendlySteamers/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Steep Hill Coffee Co-Op-->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/steephill-coffee.png" alt="An image of the Steep Hill Coffee Co-Op website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Steep Hill Coffee</h5>
+              <p class="card-text">A responsive and visually appealing website for Steep Hill Coffee Co-op, focusing on various sections including the navbar, intro section, mission statement, and partners section.</p>
+              <a href="https://lahatjaella.github.io/SteepHillCoffee/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fran's Flowers -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/frans-flowers.png" alt="An image of the Fran's Flowers website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Fran's Flowers</h5>
+              <p class="card-text">A beautifully revamped website for Fran's Flowers, a beloved flower shop. This project focuses on enhancing the look and feel of the website to provide a more pleasant and user-friendly experience for our customers.</p>
+              <a href="https://lahatjaella.github.io/FransFlowers/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Skullcapz Tour -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/skullcapz-tour.png" alt="An image of the Skullcapz tour website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Skullcapz Tour</h5>
+              <p class="card-text">A revamped website for one of Skullcapz's artists, designed for their upcoming "Marrow Escape Tour." This project includes significant enhancements to the website, ensuring it reflects the band's metal theme and provides a great user experience.</p>
+              <a href="https://lahatjaella.github.io/SkullcapzTour/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beaulah's Bakery -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/beaulahs-bakery.png" alt="An image of the Beaulah's Bakery Website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Beaulah's Bakery</h5>
+              <p class="card-text">This project involves improving the layout of the landing page based on a sketch provided by Beulah herself. The content of the page has already been finalized, and the focus was on enhancing the layout using Flexbox.</p>
+              <a href="https://lahatjaella.github.io/BeaulahsBakery/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foster Pet Website -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/foster-pet-reg.png" alt="An image of the foster pet registration website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Foster Pet Registration</h5>
+              <p class="card-text">This project involves re-styling a foster pet registration site, creating a table with information and pictures of the animals up for adoption, and adding an intake form for people interested in adopting a pet.</p>
+              <a href="https://lahatjaella.github.io/FosterPetRegistration/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Redtail Ski & Snowboard Club -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/redtail.png" alt="An image of the Redtail Ski & Snowboard Club website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Redtail Ski & Snowboard Club</h5>
+              <p class="card-text">This project involved making specific enhancements to ensure the website looks great on computer screens, fixing issues with hover effects on mobile devices, and making sure the site is accessible for users with motion sickness.</p>
+              <a href="https://lahatjaella.github.io/RedtailSkiSnowboardClub/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parallax Project -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/parallax-project.png" alt="An image of my Parallax Project website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Parallax Practice</h5>
+              <p class="card-text">This project involves enhancing the visual appeal and readability of a web page with parallax scrolling effects. The changes were made based on the client's specifications to improve the layout, text styling, and background effects.</p>
+              <a href="https://lahatjaella.github.io/ParallaxProject/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile by Nehir -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/tile-by-nehir.png" alt="An image of the Serenity Studio landing page." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tile by Nehir</h5>
+              <p class="card-text">Enhancement of the Tile by Nehir website's layout and functionality to meet specific client requirements, ensuring a responsive design and adding additional features for improved user experience.</p>
+              <a href="https://lahatjaella.github.io/TileByNehir/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Bio Page -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/personal-bio-page.png" alt="An image of my personal bio page website." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Personal Bio Page</h5>
+              <p class="card-text">This project involves creating a personal bio page that meets specific HTML requirements while allowing for creative freedom in the design and layout.</p>
+              <a href="https://lahatjaella.github.io/PersonalBioPage/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serenity Studio -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/serenity-studio.jpg" alt="An image of the Serenity Studio landing page." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Serenity Studio</h5>
+              <p class="card-text">A website for a conceptual business, Serenity Studio, a digital platform dedicated to holistic self-improvement. This project involves the end-to-end development of a responsive and visually appealing website, focusing on user experience and engagement.</p>
+              <a href="https://lahatjaella.github.io/SerenityStudio/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Self Introduction -->
+        <!-- <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/web-projects/self-intro-page.jpg" alt="An image of the self introduction page I made during my sophomore year of college." class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Self Introduction</h5>
+              <p class="card-text">This project, created during my sophomore year, was designed to introduce myself, share my interests, hobbies, background, and outline my career path at the time.</p>
+              <a href="https://lahatjaella.github.io/SelfIntroPage/" class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div> -->
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Copyright © 2024 Jaella Lahat. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

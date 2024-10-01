@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="milestone" content="Portfolio">
+  <title>Jaella Lahat Portfolio</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- DevIcons CDN -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Space Mono Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Poppins Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- My Style Sheets -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-house-heart-fill"></i> JAELLA LAHAT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-chevron-double-down"></i>
+      </button>
+
+    <div id="nav-collapse" class="collapse navbar-collapse">
+      <!-- Unordered List of NavBar Items-->
+      <ul class="navbar-nav ms-auto">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <!-- About Me -->
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <!-- Mission & Values -->
+        <li class="nav-item">
+          <a class="nav-link" href="#mission-section">Mission</a>
+        </li>
+        <!-- Featured -->
+        <li class="nav-item">
+          <a class="nav-link" href="#featured-section">Featured</a>
+        </li>
+        <!-- Skills -->
+        <li class="nav-item">
+          <a class="nav-link" href="#skills-section">Skills</a>
+        </li>
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+        <!-- Experience -->
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html">Experience</a>
+        </li>
+        <!-- Volunteer Work -->
+        <li class="nav-item">
+          <a class="nav-link" href="volunteer.html">Volunteer</a>
+        </li>
+        <!-- Projects Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="web.html">Web Development</a></li>
+            <li><a class="dropdown-item" href="data.html">Data Analytics</a></li>
+            <li><a class="dropdown-item" href="game.html">Game Development</a></li>
+            <li><a class="dropdown-item" href="it.html">Tech Infrastructure</a></li>
+            <li><a class="dropdown-item" href="marketing.html">Digital Marketing</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="py-5 parallax">
+      <div class="container text-center">
+          <!-- Headshot Row -->
+          <div class="row">
+              <div class="col-12 col-md-6 offset-md-3">
+                  <div class="headshot-container">
+                      <img src="img/headshot.jpg" alt="An image of Jaella Lahat." class="img-fluid headshot">
+                  </div>
+              </div>
+          </div>
+          <!-- Hero Content Row -->
+          <div class="row mt-4">
+              <div class="col-md-12">
+                  <div class="hero-content">
+                      <h1>Jaella Ashleigh Lahat</h1>
+                      <h5 id="tagline">Empowering the future through innovative digital solutions</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about-section" class="py-5">
+    <div class="container">
+      <div class="row about-row">
+        <div class="col-md-12 text-center">
+          <h2 class="about-title">ABOUT ME</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img id="about-img"src="img/vcu.jpg" alt="An image of the VCU campus">
+        </div>
+        <div class="col-md-6">
+          <p id="about-statement">Welcome to my portfolio! My name is Jaella Ashleigh Lahat and I'm based in the DC metropolitan area, particularly Fairfax County. I am currently a rising senior at Virginia Commonwealth University's Honors College, pursuing a Bachelor of Science in Business Information Systems with minors in Biology and Chemistry. I am also a student in the Accelerated Master's in Information Systems program. My academic journey, combined with a diverse leadership and technical background, fuels my passion for leveraging technology to drive business efficiency and innovation. I am eager to further explore opportunities in technology, data analytics, consulting, and UX/product design. My goal is to blend my skills and experiences to create innovative solutions that drive value and make a meaningful impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Mission section -->
+  <section id="mission-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div id="mission-statement" class="col-md-6">
+          <h2 class="mission-title">MY MISSION</h2>
+          <p class="text-center">My mission is to leverage my multifaceted background in technology, science, data analytics, and web development to create innovative solutions that drive business efficiency and growth. With a keen interest in using technology to solve complex problems and enhance processes, I aim to help companies exceed their goals and thrive in an ever-evolving market. As a motivated and diligent individual, my experiences—from leading initiatives at Podium Education to founding and organizing cultural and activism groups—underscore my commitment to leadership, collaboration, and continuous learning. Let's connect and collaborate to harness technology in ways that propel businesses forward and create exceptional user experiences!</p>
+        </div>
+        <div class="col-md-6">
+          <img id="mission-img" src="img/lightbulb.jpg" alt="An image of a lightbulb.">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured section -->
+  <section id="featured-section" class="py-5">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row mb-4">
+        <!-- Title -->
+        <div class="col-md-12 text-center">
+          <h2 class="featured-title">FEATURED</h2>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <!-- Gallery -->
+        <div class="col-md-12">
+          <div id="carouselExampleCaptions" class="carousel slide carousel-smaller">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+              <button type="button" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-slide-to="6" aria-current="true" aria-label="Slide 7"></button>
+              <button type="button" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-slide-to="9" aria-current="true" aria-label="Slide 10"></button>
+              <button type="button" data-bs-slide-to="10" aria-label="Slide 11"></button>
+              <button type="button" data-bs-slide-to="11" aria-label="Slide 12"></button>
+              <button type="button" data-bs-slide-to="12" aria-current="true" aria-label="Slide 13"></button>
+              <button type="button" data-bs-slide-to="13" aria-label="Slide 14"></button>
+              <button type="button" data-bs-slide-to="14" aria-label="Slide 15"></button>
+              <button type="button" data-bs-slide-to="15" aria-label="Slide 16"></button>
+              <button type="button" data-bs-slide-to="16" aria-label="Slide 17"></button>
+              <button type="button" data-bs-slide-to="17" aria-label="Slide 18"></button>
+            </div>
+            <div class="carousel-wrapper">
+              <div class="carousel-inner">
+                <!-- Did not include captions since the carousel involves slides with text -->
+                <div class="carousel-item active">
+                  <img src="img/eco-apparel/1.jpg" class="d-block w-100" alt="An image of an introduction slide for Eco Apparel.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/2.jpg" class="d-block w-100" alt="An image describing the content of the following slides.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/3.jpg" class="d-block w-100" alt="An image describing the problem statement.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/4.jpg" class="d-block w-100" alt="An image describing the solution produced for the problem statement.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/5.jpg" class="d-block w-100" alt="An image describing the product overview.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/6.jpg" class="d-block w-100" alt="An image describing the features of this web app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/7.jpg" class="d-block w-100" alt="An image describing more features of this web app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/8.jpg" class="d-block w-100" alt="An image describing more features of this web app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/9.jpg" class="d-block w-100" alt="An image describing the desirability of this web app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/10.jpg" class="d-block w-100" alt="An image describing the viability of this web app, specifically the Freemium Model.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/11.jpg" class="d-block w-100" alt="An image describing the viability of this web app, specifically Brand Partners.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/12.jpg" class="d-block w-100" alt="An image describing the viability of this web app, specifically the Ad Revenue.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/13.jpg" class="d-block w-100" alt="An image describing the viability of this web app, specifically the Consulting Services.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/14.jpg" class="d-block w-100" alt="An image describing the feasibility of this web app, specifically the tech stack.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/15.jpg" class="d-block w-100" alt="An image introducing the storyboard for this app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/16.jpg" class="d-block w-100" alt="An image describing the storyboard for this app.">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/eco-apparel/17.jpg" class="d-block w-100" alt="An image describing the storyboard for this app.">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="featured-description" class="row mb-4 mt-4">
+        <!-- Gallery Description -->
+        <div class="col-md-12 text-center">
+          <h3 class="featured-title">Eco Apparel</h3>
+          <p>
+            Above is a slideshow introducing a project I am currently spearheading the development of, entitled Eco Apparel. The Eco Apparel web application aims to promote sustainability in the fashion industry. This project involves utilizing data analysis techniques and a range of technologies, including HTML, CSS, JavaScript, Python, SQL, and APIs. My role includes driving the iterative development of essential features such as a brand sustainability assessment, a brand alternative Hall of Fame, user accounts, quizzes, and donation pages. I source and analyze data from Fashion Revolution to inform content and feature development, personalize user experiences, and promote sustainability. Additionally, I collaborate closely with a team of developers and designers to ensure the successful implementation of technical functionalities and a user-friendly interface.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills-section" class="py-5">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row skills-row mb-4">
+        <div class="col-md-12 text-center">
+          <h2 class="skills-title">SKILLS</h2>
+        </div>
+      </div>
+
+      <!-- Skills Section One -->
+      <div class="row mb-4">
+        <!-- First Skill: Python -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-python-plain"></i>
+          </div>
+          <h3>Python</h3>
+          <p class="skills-description">
+            Leveraging Python for data analysis, utilizing libraries like NumPy and Pandas to efficiently manipulate, analyze, and visualize data
+          </p>
+        </div>
+
+        <!-- Second Skill: SQL -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-azuresqldatabase-plain"></i>
+          </div>
+          <h3>SQL</h3>
+          <p class="skills-description">
+            Managing databases using SQL and writing complex queries to extract meaningful insights and support data-driven decision-making
+          </p>
+        </div>
+
+        <!-- Third Skill: Tableau -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <h3>Tableau</h3>
+          <p class="skills-description">
+            Visualizing data effectively using Tableau, transforming complex data sets into interactive and insightful dashboards
+          </p>
+        </div>
+
+        <!-- Fourth Skill: AWS -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-amazonwebservices-plain-wordmark"></i>
+          </div>
+          <h3>AWS</h3>
+          <p class="skills-description">
+            Deploying dynamic applications on AWS infrastructure, setting up VPCs, subnets, security groups, EC2 instances, Load Balancers, and Auto Scaling Groups
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills Section Two -->
+      <div class="row mb-4">
+        <!-- First Skill: HTML -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-html5-plain-wordmark"></i>
+          </div>
+          <h3>HTML</h3>
+          <p class="skills-description">
+            Structuring web content using modern semantic HTML, maintaining accessibility and ensuring adaptability across various devices
+          </p>
+        </div>
+
+        <!-- Second Skill: CSS -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-css3-plain-wordmark"></i>
+          </div>
+          <h3>CSS</h3>
+          <p class="skills-description">
+            Presenting beautiful web designs and interactions using advanced CSS techniques that enhance the user experience and ensure visual appeal
+          </p>
+        </div>
+
+        <!-- Third Skill: JavaScript -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-javascript-plain"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p class="skills-description">
+            Creating interactive experiences, games, web apps, and more using JavaScript, leveraging its versatility to build dynamic and responsive user interfaces
+          </p>
+        </div>
+
+        <!-- Fourth Skill: Bootstrap -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-bootstrap-plain"></i>
+          </div>
+          <h3>Bootstrap</h3>
+          <p class="skills-description">
+            Rapidly developing responsive websites using the web's most popular framework, implementing best practices to ensure seamless navigation and interaction
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills Section Three -->
+      <div class="row mb-4">
+        <!-- First Skill: C# -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-csharp-plain"></i>
+          </div>
+          <h3>C#</h3>
+          <p class="skills-description">
+            Developing robust applications using C# and implementing object-oriented principles to ensure code maintainability, readability, and performance
+          </p>
+        </div>
+
+        <!-- Second Skill: Visual Studio & VS Code -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-visualstudio-plain"></i>
+          </div>
+          <h3>Visual Studio</h3>
+          <p class="skills-description">
+            Proficient in using Visual Studio and VS Code for software development, leveraging their powerful features and extensions to enhance productivity and code quality
+          </p>
+        </div>
+
+        <!-- Third Skill: Google Suite -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-google-plain"></i>
+          </div>
+          <h3>Google Suite</h3>
+          <p class="skills-description">
+            Skilled in Google Suite: Creating engaging presentations with Slides, crafting well-structured documents with Docs, and performing data analysis with Sheets
+          </p>
+        </div>
+
+        <!-- Fourth Skill: Canva -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4 hover-effect">
+          <div class="skill-icon">
+            <i class="devicon-canva-original"></i>
+          </div>
+          <h3>Canva</h3>
+          <p class="skills-description">
+            Designing visually appealing graphics and marketing materials using Canva, leveraging its intuitive drag-and-drop interface and extensive template library
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section" class="py-5">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row mb-4">
+        <div class="col-md-12 text-center">
+          <h2 class="contact-title">CONTACT ME</h2>
+        </div>
+      </div>
+
+      <!-- Contact Row -->
+      <div class="row mb-4">
+        <!-- LinkedIn -->
+        <div class="col-md-4 col-sm-12 text-center mb-4">
+          <div class="media-icon">
+            <a href="https://www.linkedin.com/in/jaella-lahat/">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="col-md-4 col-sm-12 text-center mb-4">
+          <div class="media-icon">
+            <a href="https://github.com/lahatjaella">
+              <i class="devicon-github-original"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-4 col-sm-12 text-center mb-4">
+          <div class="media-icon">
+            <a href="mailto:lahatjaella@gmail.com">
+              <i class="bi bi-envelope-at"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Copyright © 2024 Jaella Lahat. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
